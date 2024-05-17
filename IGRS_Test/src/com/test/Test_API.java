@@ -7,7 +7,17 @@ import java.util.function.Consumer;
 
 public class Test_API {
 
+	
 	public static void main(String[] args) {
+		
+		
+		int p=8;
+		p=p++;
+		p=++p;
+		p=p+1;
+		p=++p + p++;
+		   
+		    
 		List<Integer> list = Arrays.asList(10,45,10,55,65,45);
 		int[] array = new int[10];
 		list.stream()
@@ -84,6 +94,7 @@ public class Test_API {
             for (int j = 0; j < n; j++) {
                 if (A[i][j] == '.') {
                     ans.add(new Pair<>(i + 1, j + 1));
+                    
                     break;
                 }
             }

@@ -8,6 +8,16 @@ public class JavaLIst {
 	public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         
+		double d = 1.0/0.0;  
+		double d1 = 0.0/0.0;
+		
+		float f = 1/0.0f;
+		float f1 = 0/0.0f; 
+		
+		int i1 = 0/0;
+		int j = 1/0;
+		
+		
         Scanner scanner = new Scanner(System.in);
         //get N
         int N = scanner.nextInt();
